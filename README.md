@@ -41,7 +41,7 @@ Now the resources can be imported:
 
 `import outputs from "./../../amplify_outputs.json";`
 
-Assuming the backend repository is cloned in the same root folder, the respective path must be added to the 'tsconfig.json', like this:
+Assuming the backend repository is cloned in the same root folder and the backend repository folder name is 'examres2_be', the respective path must be added to the 'tsconfig.json', like this:
 
 `"@/data-schema": ["../examres2_be/amplify/data/resource"]`
 
